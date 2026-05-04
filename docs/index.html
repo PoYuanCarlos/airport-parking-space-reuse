@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airport Parking & Space Reuse Strategy Dashboard</title>
+  <meta name="description" content="A scenario-based transportation analytics portfolio project evaluating airport parking demand reallocation and space reuse under shared autonomous mobility." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Po-Yuan Wang</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#overview">Overview</a>
+      <a href="#pace">P.A.C.E.</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#decision">Decision Output</a>
+      <a href="#delivery">Delivery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Transportation · Airport Access · Scenario Analytics</p>
+        <h1>Airport Parking & Space Reuse Strategy Dashboard</h1>
+        <p class="hero-subtitle">
+          A scenario-based transportation analytics portfolio project evaluating how shared autonomous mobility may reallocate airport parking demand, increase curbside and staging pressure, and create opportunities for adaptive parking-space reuse.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#dashboard">View Dashboard Area</a>
+          <a class="button secondary" href="#pace">See Workflow</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Project summary card">
+        <span class="card-label">Project Type</span>
+        <h2>Decision-Support Portfolio Project</h2>
+        <p>BigQuery SQL · Tableau · GitHub Pages · P.A.C.E. workflow · PMP-style delivery logic</p>
+      </div>
+    </section>
+
+    <section id="overview" class="section-wrap two-column">
+      <div>
+        <p class="eyebrow">Problem Context</p>
+        <h2>Why this project matters</h2>
+        <p>
+          Airports depend on parking for passenger access, operational reliability, and non-aeronautical revenue. As shared autonomous mobility grows, long-term parking demand may decline while curbside pickup/drop-off, staging, charging, and flexible access-management needs may increase.
+        </p>
+        <p>
+          This project frames the issue as an airport access and facility-reuse decision problem, not only a parking-demand forecast.
+        </p>
+      </div>
+      <div class="info-panel">
+        <h3>Core Question</h3>
+        <p>
+          How can airports evaluate the operational, financial, spatial, and stakeholder impacts of shared autonomous mobility on parking demand, curbside pressure, and future parking-space reuse under uncertain adoption scenarios?
+        </p>
+      </div>
+    </section>
+
+    <section class="section-wrap">
+      <p class="eyebrow">Stakeholders</p>
+      <h2>Stakeholder map</h2>
+      <div class="responsive-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Stakeholder</th>
+              <th>Key Concern</th>
+              <th>Expected Output</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Airport planner / authority</td>
+              <td>Parking revenue, access reliability, capital planning</td>
+              <td>Scenario dashboard, reuse strategy, monitoring indicators</td>
+            </tr>
+            <tr>
+              <td>Mobility operator</td>
+              <td>Curbside operations, staging, pickup/drop-off turnover</td>
+              <td>Staging demand indicators and operational recommendations</td>
+            </tr>
+            <tr>
+              <td>Consulting firm / employer</td>
+              <td>Can analysis become client-ready deliverables?</td>
+              <td>Case-study page, README, Tableau output, decision matrix</td>
+            </tr>
+            <tr>
+              <td>Technical reviewer</td>
+              <td>Data assumptions, reproducibility, validation</td>
+              <td>SQL snippets, data dictionary, validation notes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="pace" class="section-wrap">
+      <p class="eyebrow">Method</p>
+      <h2>P.A.C.E. workflow integrated with EDA</h2>
+      <div class="pace-grid">
+        <article class="pace-card">
+          <span>P</span>
+          <h3>Problem Framing</h3>
+          <p>Define the airport access problem, stakeholders, metrics, assumptions, constraints, and decision questions.</p>
+        </article>
+        <article class="pace-card">
+          <span>A</span>
+          <h3>AI-Assisted Data Processing</h3>
+          <p>Use BigQuery SQL and human-reviewed AI support to import, clean, join, validate, and document data.</p>
+        </article>
+        <article class="pace-card">
+          <span>C</span>
+          <h3>Computational Analysis + EDA</h3>
+          <p>Analyze demand patterns, scenario assumptions, sensitivity checks, and Tableau-ready outputs.</p>
+        </article>
+        <article class="pace-card">
+          <span>E</span>
+          <h3>Evidence-Based Decision Support</h3>
+          <p>Translate analytical results into recommendations, limitations, and next-step actions for stakeholders.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="data" class="section-wrap two-column alt-bg">
+      <div>
+        <p class="eyebrow">Data Design</p>
+        <h2>Minimum viable dataset</h2>
+        <p>
+          The first release can use public and/or synthetic data to demonstrate workflow logic without exposing private data. Core tables may include parking demand by time period, access-mode scenario assumptions, curbside/staging proxies, revenue assumptions, and reuse-option scores.
+        </p>
+      </div>
+      <ul class="checklist">
+        <li>Parking demand by lot, day type, and time period</li>
+        <li>Low / medium / high shared-mobility adoption scenarios</li>
+        <li>Curbside and staging pressure indicators</li>
+        <li>Revenue sensitivity assumptions</li>
+        <li>Reuse-option scorecard variables</li>
+      </ul>
+    </section>
+
+    <section id="dashboard" class="section-wrap">
+      <p class="eyebrow">Dashboard</p>
+      <h2>Tableau dashboard placeholder</h2>
+      <div class="dashboard-placeholder">
+        <div>
+          <h3>Dashboard will be embedded or linked here</h3>
+          <p>
+            Suggested views: parking utilization by scenario, access-mode reallocation, curbside pressure, revenue sensitivity, and space-reuse recommendation scorecard.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="decision" class="section-wrap">
+      <p class="eyebrow">Decision Logic</p>
+      <h2>Data → Insight → Decision → Recommendation</h2>
+      <div class="responsive-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Insight</th>
+              <th>Decision</th>
+              <th>Recommendation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Long-term parking demand by scenario</td>
+              <td>High shared-mobility adoption may reduce parking utilization.</td>
+              <td>Avoid overbuilding fixed parking capacity.</td>
+              <td>Delay expansion and prepare flexible reuse options.</td>
+            </tr>
+            <tr>
+              <td>Curbside and staging demand proxies</td>
+              <td>Parking decline may shift pressure to pickup/drop-off zones.</td>
+              <td>Reallocate selected areas for managed shared-mobility operations.</td>
+              <td>Pilot geofenced pickup, staging, and turnover controls.</td>
+            </tr>
+            <tr>
+              <td>Reuse-option scorecard</td>
+              <td>Different reuse options perform differently by scenario.</td>
+              <td>Select options based on flexibility, revenue, operations, and equity.</td>
+              <td>Use a decision matrix rather than one universal recommendation.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="delivery" class="section-wrap two-column">
+      <div>
+        <p class="eyebrow">PMP Delivery Layer</p>
+        <h2>Scope, acceptance, and risk control</h2>
+        <p>
+          This project includes scope definition, deliverables, acceptance criteria, assumptions, risks, communication needs, and public-release boundaries to show delivery maturity rather than only visualization skill.
+        </p>
+      </div>
+      <div class="info-panel">
+        <h3>Public-release note</h3>
+        <p>
+          Public materials use public, synthetic, anonymized, or aggregated information where appropriate. The dashboard and code examples demonstrate workflow logic and decision-support design rather than a production system or confidential client work.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Po-Yuan Wang. Transportation Strategy & Analytics Portfolio.</p>
+  </footer>
+</body>
+</html>

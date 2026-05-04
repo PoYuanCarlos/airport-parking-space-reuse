@@ -1,0 +1,3 @@
+-- BigQuery SQL template
+-- Replace project_id.dataset_id.table_name with your own public or synthetic dataset path.
+-- This file is intentionally written as a portfolio-safe template.
